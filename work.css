@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+
+
+}
+body {
+    position: relative;
+    width: 100%;
+    min-width: none;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url(bg1.jpg);
+    background-position: center;
+
+}
+
+header{
+    position:relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+header.about{
+    position: relative;
+    color: bisque;
+    font-size: 40px;
+
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+header.navigation a{
+
+    color: red;
+    position: relative;
+    color: bisque;
+    
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 3px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: background;
+   
+}
+ 
+header .navigation a:not(:last-child) {
+    margin-right: 30px;
+
+}
+
+header .navigation a:hover{
+    background: lightgrey;
+  
+}
+section {
+    width: 1000px;
+    margin: 60px 100px;
+
+
+}
+section h2{
+    color:  hwb(7 17% 10%) ;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 10px;
+    line-height: 60px;
+    margin-bottom: 10px;
+
+}
+section h3{
+    color: hsl(16, 72%, 63%);
+    font-size:small;
+    font-weight: 400;
+    letter-spacing: 10px;
+    line-height: 100px;
+    margin-bottom: 2px;
+}
+
+ section p{
+    color:  #f25a5a ;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+
+ }
+
+ section.info{
+    color: rgb(208, 57, 57);
+    background: rgb(235, 178, 93);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700px;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 6px;
+
+ } 
+
+ section .info:hover{
+    background: #cbb4ab;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    font-weight: 100;
+
+
+ }
+
+ footer{
+    dispay:flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+
+ }
+
+ footer{
+    position: relative;
+    color: grey;
+    font-size: 30px;
+
+ }
+ footer a:not(:last-child){
+    margin-right: 60px;
+
+ }
+  
+ footer a:hover{
+    transform :scale(1.5);
+ }
